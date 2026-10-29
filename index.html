@@ -3,10 +3,273 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my portfolio-nandhu </title>
-    
+    <title>Nandhu — Driven by Passion | Automotive Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <!-- Header / Navigation Bar -->
+    <header class="site-header" id="top">
+        <div class="nav-container">
+            <a href="#top" class="nav-logo">NANDHU<span>.</span></a>
+            
+            <nav class="nav-menu" aria-label="Main Navigation">
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#driving">Driving</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <a href="#contact" class="btn btn-primary nav-cta">LET'S CONNECT</a>
+
+            <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-bg-overlay"></div>
+            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=2000&q=85" alt="Cinematic drifting performance car with tire smoke" class="hero-bg-image">
+            
+            <div class="hero-content container">
+                <div class="hero-badge">
+                    <span class="badge-line"></span>
+                    <span>DRIVER | AUTOMOTIVE ENTHUSIAST</span>
+                </div>
+                
+                <h1 class="hero-title">NANDHU</h1>
+                
+                <p class="hero-subtitle">BORN TO DRIVE. BUILT FOR THE RIDE.</p>
+                
+                <p class="hero-intro">
+                    "Driven by passion, inspired by speed, and always chasing the next unforgettable ride. Welcome to my world of driving, drifting, mud racing, and cinematic adventures."
+                </p>
+                
+                <div class="hero-actions">
+                    <a href="#driving" class="btn btn-primary">EXPLORE MY WORLD</a>
+                    <a href="#contact" class="btn btn-outline">GET IN TOUCH</a>
+                </div>
+            </div>
+
+            <div class="scroll-indicator">
+                <span>SCROLL TO EXPLORE</span>
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">01 // THE DRIVER</span>
+                    <h2 class="section-title">DRIVEN BY PASSION</h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-text-content">
+                        <p class="about-lead">
+                            Behind the wheel, every movement matters. It's about precision, feeling the traction limits, and mastering pure machine control.
+                        </p>
+                        <p>
+                            Hi, I’m Nandhu. My journey revolves around a deep, lifelong fascination with internal combustion, velocity, and car culture. Whether maintaining car control through tight asphalt hairpins or tearing through deep trenches in mud racing, driving is more than movement—it's an expression of absolute focus and freedom.
+                        </p>
+                        <div class="personal-brand-card">
+                            <h3>PERSONAL BRAND</h3>
+                            <p class="brand-statement">"Nandhu — Driven by Passion."</p>
+                        </div>
+                    </div>
+
+                    <div class="about-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=1000&q=80" alt="Aggressive performance car headlights in the dark" class="about-img">
+                        <div class="accent-box"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Driving & Skills Section -->
+        <section id="driving" class="driving-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">02 // CAPABILITIES</span>
+                    <h2 class="section-title">DRIVING & SKILLS</h2>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-number">01</div>
+                        <h3>Drifting</h3>
+                        <p>Initiating weight transfer, maintaining high steering angles, and riding the friction threshold with balance and precision.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-number">02</div>
+                        <h3>Vehicle Control</h3>
+                        <p>Advanced throttle steering, trail braking, and instantaneous corrective inputs under high-speed dynamics.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-number">03</div>
+                        <h3>Driving Techniques</h3>
+                        <p>Mastering line selection, weight shift manipulation, clutch kicks, and smooth counter-steering transitions.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-number">04</div>
+                        <h3>Mud Racing</h3>
+                        <p>Navigating loose, unpredictable terrain, sustaining momentum, and balancing raw power with surface traction.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">03 // VISUALS</span>
+                    <h2 class="section-title">CINEMATIC GALLERY</h2>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item item-large">
+                        <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=1200&q=80" alt="Sports car under neon street lighting">
+                        <div class="gallery-overlay">
+                            <span>NIGHT RUNS</span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=800&q=80" alt="Detailed shot of high performance wheels and brakes">
+                        <div class="gallery-overlay">
+                            <span>PRECISION HARDWARE</span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=800&q=80" alt="Performance coupe parked in dark atmosphere">
+                        <div class="gallery-overlay">
+                            <span>STANCE & STYLE</span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item item-wide">
+                        <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&q=80" alt="Low angle view of modern sports car">
+                        <div class="gallery-overlay">
+                            <span>RAW VELOCITY</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section id="hobbies" class="hobbies-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">04 // BEYOND THE SEAT</span>
+                    <h2 class="section-title">PASSIONS & HOBBIES</h2>
+                </div>
+
+                <div class="hobbies-grid">
+                    <div class="hobby-card">
+                        <div class="hobby-icon-wrap">
+                            <svg class="hobby-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect><line x1="7" y1="2" x2="7" y2="22"></line><line x1="17" y1="2" x2="17" y2="22"></line><line x1="2" y1="12" x2="22" y2="12"></line><line x1="2" y1="7" x2="7" y2="7"></line><line x1="2" y1="17" x2="7" y2="17"></line><line x1="17" y1="17" x2="22" y2="17"></line><line x1="17" y1="7" x2="22" y2="7"></line></svg>
+                        </div>
+                        <h3>Cinematic Movies</h3>
+                        <p>Deeply inspired by cinematic storytelling, dark visual tones, and iconic automotive films. Movies shape the way I view speed, design, and atmosphere.</p>
+                    </div>
+
+                    <div class="hobby-card">
+                        <div class="hobby-icon-wrap">
+                            <svg class="hobby-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 17h14M6 12h12M4 7h16"></path><circle cx="7" cy="17" r="2"></circle><circle cx="17" cy="17" r="2"></circle></svg>
+                        </div>
+                        <h3>Mud Racing & Off-Road</h3>
+                        <p>Participating in and enjoying high-torque mud racing. It’s gritty, unpredictable, and an incredible test of raw machine grit and driver reflex.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <span class="section-tag">05 // GET IN TOUCH</span>
+                        <h2 class="section-title">LET’S CONNECT</h2>
+                        <p>
+                            Interested in collaborating, discussing automotive projects, or sharing driving stories? Drop a message and let's talk speed.
+                        </p>
+                        <div class="contact-direct">
+                            <p><strong>Email:</strong> contact@nandhudriven.com</p>
+                            <p><strong>Location:</strong> Track & Street / Worldwide</p>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" required placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" required placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="4" required placeholder="Tell me about your project or inquiry"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-logo">NANDHU<span>.</span></div>
+            <p class="footer-brand-text">Driven by Passion.</p>
+            <p class="copyright">&copy; 2026 Nandhu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Simple Mobile Menu Script -->
+    <script>
+        const toggleBtn = document.querySelector('.mobile-menu-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        toggleBtn.addEventListener('click', () => {
+            const isExpanded = toggleBtn.getAttribute('aria-expanded') === 'true';
+            toggleBtn.setAttribute('aria-expanded', !isExpanded);
+            toggleBtn.classList.toggle('active');
+            navMenu.classList.toggle('open');
+        });
+
+        // Close mobile menu on link click
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                toggleBtn.setAttribute('aria-expanded', 'false');
+                toggleBtn.classList.remove('active');
+                navMenu.classList.remove('open');
+            });
+        });
+    </script>
 </body>
 </html>
